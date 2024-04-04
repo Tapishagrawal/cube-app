@@ -43,6 +43,7 @@ const CustomerDetails: React.FC<CustomerDetailsProps> = ({ singleCustomer }) => 
     useEffect(() => {
         fetchImagesData();
     }, []);
+    
     useEffect(() => {
         setInterval(() => {
             setImages(shuffleImages);
